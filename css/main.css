@@ -1,0 +1,46 @@
+body {
+    background: hsl(180, 52%, 96%);
+    font-size: 15px;
+    
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+@media (min-width:950px) {
+    .listing-card {
+        width: 90%;
+        max-width: 90%;
+        height: 200px;
+        flex-direction: row;
+        
+        justify-content: space-between;
+    }
+    .card-container {
+        border: none;
+        margin: 0;
+        margin-right: 70px;
+        width: 50%;
+    }
+    .filters {
+        display: flex;
+        flex-direction: row;
+        width: 450px;
+        max-width: 44%;
+        justify-content: right;
+    }
+    .listing-card .avatar img {
+    position: static;
+        width: 93px;
+        height: 93px;
+}
+.listing-card img {
+    margin: 0 20px;
+}
+}

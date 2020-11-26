@@ -1,0 +1,117 @@
+
+.listing-card {
+    width: 85%;
+    max-width: 500px;
+    height: 320px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 1px 16px -1px hsl(180, 29%, 50%);
+    position: relative;
+    margin: 40px 0;
+}
+
+.listing-card .avatar img {
+    position: absolute;
+    top: -32px;
+    left: 20px;
+    width: 65px;
+    height: 65px;
+}
+.card-container {
+    margin-top: 35px;
+    width: 95%;
+    border-bottom: 1px solid black;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(180, 58% ,43%);
+    font-weight: bold;
+}
+.position-name {
+    margin: 15px 0;
+}
+
+.tags, .tags * {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+    color:hsl(189, 8%, 52%);
+}
+.tags {
+    margin-bottom: 25px;
+}
+.tag-dot{
+    width: 5px;
+    height:5px;
+    border-radius: 50%;
+    background:hsl(189, 8%, 52%);
+}
+.badges {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: row;
+}
+.badge-new {
+    width: 45px;
+    height: 25px;
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    line-height: 25px;
+    margin: 0 5px;
+}
+.badge-featured {
+    width: 90px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    line-height: 25px;
+    margin: 0 5px;
+}
+.filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 95%;
+    row-gap: 20px;
+}
+.filter-row {
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+}
+.filter {
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    background-color: hsl(180, 31%, 95%);
+    color: hsl(180, 29%, 50%);
+    font-weight: bold;
+    margin: 8px 5px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+.filters .filter:hover {
+    background-color: hsl(180, 58% ,43%);
+    color: white;
+}
+
+.card-featured {
+    box-shadow: -10px 0px 5px 0px hsl(180, 29%, 50%);
+}

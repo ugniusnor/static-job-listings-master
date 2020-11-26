@@ -1,0 +1,62 @@
+header {
+    width: 100%;
+    height: 22vh;
+   background-image: url(../images/bg-header-mobile.svg);
+   background-color: hsl(180, 29%, 50%);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   margin-bottom: 80px;
+   position: relative;
+}
+.filter-box {
+    width: 85%;
+    background-color: white;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    
+    align-items: center;
+    display: none;
+}
+.filter-container {
+    width: 85%;
+    margin: 0 4px;
+    display: inline-block;
+    
+}
+header .filter {
+    width: 120px;
+    position: relative;
+    display:flex;
+    float: left;
+    position: relative;
+    
+}
+header .close-filter {
+    width: 30px;
+    background-color: hsl(180, 58% ,43%);
+    height: 100%;
+    position: absolute;
+    color: white;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+header .close-filter:hover {
+    background-color: black;
+    font-weight: bold;
+}
+header .reset-container {
+    display: inline-block;
+    float: right;
+    width: 10%;
+    color: hsl(180, 58% ,43%);
+    cursor: pointer;
+}
+header .reset-container:hover {
+    text-decoration: underline;
+
+}
