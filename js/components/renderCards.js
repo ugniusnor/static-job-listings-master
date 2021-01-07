@@ -1,6 +1,6 @@
-import {SingleCard} from "../components/SingleCard.js"
-import {data} from "../data/data.js"
-import { cardFilter } from "../components/cardFilter.js" 
+import SingleCard from "../components/SingleCard.js"
+import data from "../data/data.js"
+import cardFilter from "../components/cardFilter.js" 
 
 
 function renderAllListings () {
@@ -16,7 +16,7 @@ for (let i=0;i<data.length;i++) {
  }
  DOM.innerHTML=HTML;
 
-console.log(allFilters);
+
 
 
 
@@ -24,4 +24,4 @@ console.log(allFilters);
  cardFilter ();
 }
 
-export {renderAllListings}; 
+export default renderAllListings; 

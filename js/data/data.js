@@ -150,4 +150,4 @@ const data=[
     "tools": ["React", "Sass"]
   }
 ]
-export {data};
+export default data;

@@ -119,4 +119,4 @@ function cardFilter() {
 
 
 
-export { cardFilter }
+export default cardFilter 
